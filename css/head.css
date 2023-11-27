@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing: border-box}
+body{font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"; font-size: 16px; color: darkorchid; margin: 0}
+.banner{width: 100%; min-height: 200px}
+.img-100{width: 100%; height: auto}
+header{width: 100%; height: 70px; background-color: #FF950F}
+.container{width: 80%; margin: 0 auto; display: flex; flex-wrap: wrap }
+.logo{width: 200px; padding-top: 5px; float: left}
+.menu{float: right; padding-top:22px}
+.menu a{padding: 10px 20px ; text-decoration: none; color: white; text-transform: uppercase; font-weight: 600}
+.menu a:hover{color: #930B0E}
+main{width: 100%; height: 1100px; background-color: white}
+.w-25{width: 25%; padding: 15px}
+.vien{border: 1px solid blue; padding:15px; border-radius: 10px; text-align: center;margin-top: 30px  }
+.bo-goc{border-radius: 10px}
+.tour{color: blue; padding-top: 20px}
+.gia{color: red; font-weight: 600}
+.space-between{justify-content: space-between}
+footer{width: 100%; height: 50px; background-color: #FF950F; text-align: center; color: white; padding-top: 12px }
+.tour a{padding: 10px 20px ; text-decoration: none; color: blue; text-transform: uppercase; font-weight: 600}
+.tour a:hover{color: #930B0E}
+.w-40{width: 40%; padding: 15px}
+.w-60{width: 60%; padding: 15px}
+.tieu-de{color: blue; border-bottom: 1px solid blue; font-size: 30px; font-weight: bold}
+.text-do{color: red; font-weight: bold; font-size: 18px}
+.vien-xam{width: 100%; min-height: 300px; border: 1px solid #666666; border-radius: 10px; padding: 3px}
+.form-control{
+	padding: 8px; margin-bottom: 18px; border-radius: 5px; width: 100%
+}
+.btn-xanh{
+	padding: 10px 20p; background-color:#0CCEFF; color: white; cursor: pointer;margin-right: 15px
+}
+.btn-vang{
+	padding: 10px 20p; background-color: #E4E84B; color: white; cursor: pointer; 
+}
